@@ -1,0 +1,739 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:socrata="http://www.socrata.com/rdf/terms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#" xmlns:dcterm="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dsbase="https://data.sfgov.org/resource/" xmlns:ds="https://data.sfgov.org/resource/nmzh-y378/">
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-cpeh~i7d8-giw8">
+    <socrata:rowID>row-cpeh~i7d8-giw8</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-02-09T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-02-26T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-w9vh~h5d5-akbk">
+    <socrata:rowID>row-w9vh~h5d5-akbk</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-06-03T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-17T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-w795-sdcx_cddj">
+    <socrata:rowID>row-w795-sdcx_cddj</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Fewer, Sandra</ds:candidate>
+    <ds:date_of_submission>2015-02-16T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-02-29T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-5emf~9maq-v3sg">
+    <socrata:rowID>row-5emf~9maq-v3sg</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-06-05T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-17T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-r9yc.qjic_9rdf">
+    <socrata:rowID>row-r9yc.qjic_9rdf</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-03-21T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-03-24T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-379t-8mni_pn8f">
+    <socrata:rowID>row-379t-8mni_pn8f</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-06-02T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>36922</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-8vin~gcti_wvnr">
+    <socrata:rowID>row-8vin~gcti_wvnr</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Ronen, Hillary</ds:candidate>
+    <ds:date_of_submission>2016-06-21T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-24T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>83630.79</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-mg8s.h24g_2ydv">
+    <socrata:rowID>row-mg8s.h24g_2ydv</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-06-10T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-2t7h~zyfw-3y5y">
+    <socrata:rowID>row-2t7h~zyfw-3y5y</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-06-17T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>9788</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-9hdc_yt28_ub6b">
+    <socrata:rowID>row-9hdc_yt28_ub6b</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Matranga, Benjamin</ds:candidate>
+    <ds:date_of_submission>2016-06-05T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-23T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-bkse-ngwf-x5je">
+    <socrata:rowID>row-bkse-ngwf-x5je</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Yee, Norman</ds:candidate>
+    <ds:date_of_submission>2016-08-08T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-08-19T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-pwdm~m4k9.32vc">
+    <socrata:rowID>row-pwdm~m4k9.32vc</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-05-16T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-05-17T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>340</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-gzi4~msp5.vccd">
+    <socrata:rowID>row-gzi4~msp5.vccd</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Fewer, Sandra</ds:candidate>
+    <ds:date_of_submission>2016-07-18T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-07-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>81898.13</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-mgwb~m66c.wxdi">
+    <socrata:rowID>row-mgwb~m66c.wxdi</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-08-17T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-08-23T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>22314</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-9mdb.7dfh.t3e6">
+    <socrata:rowID>row-9mdb.7dfh.t3e6</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Matranga, Benjamin</ds:candidate>
+    <ds:date_of_submission>2016-07-14T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-07-19T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>40770</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-bc65~c973-4nza">
+    <socrata:rowID>row-bc65~c973-4nza</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-07-25T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-07-27T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>9400</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-j87g.fqzm.x859">
+    <socrata:rowID>row-j87g.fqzm.x859</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-09-09T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-13T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>28272</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-him3~zm64~u6ns">
+    <socrata:rowID>row-him3~zm64~u6ns</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-08-26T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-08-31T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-tv3k~zvcx.ecga">
+    <socrata:rowID>row-tv3k~zvcx.ecga</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lyens, Jonathan</ds:candidate>
+    <ds:date_of_submission>2016-08-30T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-2tvs-7fst-8skf">
+    <socrata:rowID>row-2tvs-7fst-8skf</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Ronen, Hillary</ds:candidate>
+    <ds:date_of_submission>2016-06-03T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-17T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-aupv~xubj.kyix">
+    <socrata:rowID>row-aupv~xubj.kyix</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-07-05T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-07-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>63378</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-2q87.2wz7.kxrn">
+    <socrata:rowID>row-2q87.2wz7.kxrn</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-09-02T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>57950</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-kbjv.q5q6_uh8z">
+    <socrata:rowID>row-kbjv.q5q6_uh8z</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Arce, Joshua</ds:candidate>
+    <ds:date_of_submission>2016-06-22T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-27T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>40548</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-ifb3_jty8.3yk9">
+    <socrata:rowID>row-ifb3_jty8.3yk9</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-04-13T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-04-14T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>28690</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-3ced-m288-svzz">
+    <socrata:rowID>row-3ced-m288-svzz</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-07-06T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-07-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>23333.98</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-qdtu-7n7m-eshs">
+    <socrata:rowID>row-qdtu-7n7m-eshs</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-08-17T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-08-19T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>5400</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-i6ym-6kbw_vqvh">
+    <socrata:rowID>row-i6ym-6kbw_vqvh</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Fewer, Sandra</ds:candidate>
+    <ds:date_of_submission>2016-07-08T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-07-12T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>30832</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-7g3g-mh2c_fkpu">
+    <socrata:rowID>row-7g3g-mh2c_fkpu</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Arce, Joshua</ds:candidate>
+    <ds:date_of_submission>2016-05-31T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-21T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-v7bf~cbkj.9m8w">
+    <socrata:rowID>row-v7bf~cbkj.9m8w</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-08-22T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-08-25T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>16348</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-2z9b.b77a_bv4s">
+    <socrata:rowID>row-2z9b.b77a_bv4s</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-05-04T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-05-05T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14670</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-qcxj~5ind-999v">
+    <socrata:rowID>row-qcxj~5ind-999v</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-06-23T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-27T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>67944</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-c4vh_kt5b~kdki">
+    <socrata:rowID>row-c4vh_kt5b~kdki</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-09-16T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-21T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>11270</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-35sp~x5f6-4xz6">
+    <socrata:rowID>row-35sp~x5f6-4xz6</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Fewer, Sandra</ds:candidate>
+    <ds:date_of_submission>2016-09-14T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-21T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>8727</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-h4xg-dk6y-k3f8">
+    <socrata:rowID>row-h4xg-dk6y-k3f8</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lyens, Jonathan</ds:candidate>
+    <ds:date_of_submission>2016-09-19T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>19309.7</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-gwmk_5emv-useu">
+    <socrata:rowID>row-gwmk_5emv-useu</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Matranga, Benjamin</ds:candidate>
+    <ds:date_of_submission>2016-09-16T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>16320</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-ijjk_2raw_mdt5">
+    <socrata:rowID>row-ijjk_2raw_mdt5</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Arce, Joshua</ds:candidate>
+    <ds:date_of_submission>2016-09-16T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>24966</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-38eh~hnq6~8nhk">
+    <socrata:rowID>row-38eh~hnq6~8nhk</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-09-19T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-22T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14890</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-jk3m-anb6~q6qu">
+    <socrata:rowID>row-jk3m-anb6~q6qu</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-09-19T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-23T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>11960</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-6any_3sq6~7bbr">
+    <socrata:rowID>row-6any_3sq6~7bbr</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Ronen, Hillary</ds:candidate>
+    <ds:date_of_submission>2016-06-21T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-28T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>22267.2</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-tm6e.w6kh.teqf">
+    <socrata:rowID>row-tm6e.w6kh.teqf</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Yee, Norman</ds:candidate>
+    <ds:date_of_submission>2016-09-23T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-09-28T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>80060</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-5ckn-wbhj~7hew">
+    <socrata:rowID>row-5ckn-wbhj~7hew</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-09-29T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-03T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14580</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-v6wa.yau6-a76q">
+    <socrata:rowID>row-v6wa.yau6-a76q</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-09-29T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-03T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>19153</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-x4tj-wj65.earv">
+    <socrata:rowID>row-x4tj-wj65.earv</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-10-03T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-05T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14106</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-6q9w-mahf~fv27">
+    <socrata:rowID>row-6q9w-mahf~fv27</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-10-04T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>20898</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-bmeu_u5vv-jrpy">
+    <socrata:rowID>row-bmeu_u5vv-jrpy</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Fewer, Sandra</ds:candidate>
+    <ds:date_of_submission>2016-10-06T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-13T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>13542.87</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-bhng-xn52_x7pw">
+    <socrata:rowID>row-bhng-xn52_x7pw</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-10-10T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-13T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>11000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-qnng-t76z-m6v6">
+    <socrata:rowID>row-qnng-t76z-m6v6</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lyens, Jonathan</ds:candidate>
+    <ds:date_of_submission>2016-10-13T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-14T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>2344.96</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-e2gz-xbnt-augi">
+    <socrata:rowID>row-e2gz-xbnt-augi</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-10-14T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-17T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>11900</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-3jzs~4cxi~mvb8">
+    <socrata:rowID>row-3jzs~4cxi~mvb8</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-10-17T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-18T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>6184</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-wtey.xuqr~xqwe">
+    <socrata:rowID>row-wtey.xuqr~xqwe</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Arce, Joshua</ds:candidate>
+    <ds:date_of_submission>2016-10-13T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-18T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>8470</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-imdc~v6xr.exq4">
+    <socrata:rowID>row-imdc~v6xr.exq4</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Matranga, Benjamin</ds:candidate>
+    <ds:date_of_submission>2016-10-18T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-20T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>21148</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-qian-eeft~aecf">
+    <socrata:rowID>row-qian-eeft~aecf</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-10-19T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-20T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>5520</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-jtx2-i8wa_3xmg">
+    <socrata:rowID>row-jtx2-i8wa_3xmg</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Arce, Joshua</ds:candidate>
+    <ds:date_of_submission>2016-10-18T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-21T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>23860</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-hvb2~p4dk~nvyi">
+    <socrata:rowID>row-hvb2~p4dk~nvyi</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-10-19T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-24T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14971</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-bxcy-cwhz~nsq2">
+    <socrata:rowID>row-bxcy-cwhz~nsq2</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Ronen, Hillary</ds:candidate>
+    <ds:date_of_submission>2016-10-20T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-25T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>29102.01</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-urxy.bvpk-7dxt">
+    <socrata:rowID>row-urxy.bvpk-7dxt</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-10-25T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-25T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>12700</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-cahr.e5rd~23yd">
+    <socrata:rowID>row-cahr.e5rd~23yd</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-10-25T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-27T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>3000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-j8k4_zg2h~qbwp">
+    <socrata:rowID>row-j8k4_zg2h~qbwp</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-10-24T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-10-27T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>8620</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-ax49_548g-psfe">
+    <socrata:rowID>row-ax49_548g-psfe</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-06-26T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-06-28T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>9220</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-rkn6_4fk9~9thz">
+    <socrata:rowID>row-rkn6_4fk9~9thz</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-11-01T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-02T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>7944</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-denr.wgqf-xmpp">
+    <socrata:rowID>row-denr.wgqf-xmpp</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-11-01T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-02T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14080</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-63fu.jki9.kyv2">
+    <socrata:rowID>row-63fu.jki9.kyv2</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-11-01T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-03T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>14190</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-zgqv~ndyd~9e4f">
+    <socrata:rowID>row-zgqv~ndyd~9e4f</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-11-03T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-03T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>6000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-cjdu_wcyy_bxtr">
+    <socrata:rowID>row-cjdu_wcyy_bxtr</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Matranga, Benjamin</ds:candidate>
+    <ds:date_of_submission>2016-11-04T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>15240</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-k399.yybk_xaz4">
+    <socrata:rowID>row-k399.yybk_xaz4</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lyens, Jonathan</ds:candidate>
+    <ds:date_of_submission>2016-11-03T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>4060</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-8rkm_zw9v_sxnp">
+    <socrata:rowID>row-8rkm_zw9v_sxnp</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-11-04T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>8346</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-gq9h.rwnv_qbt3">
+    <socrata:rowID>row-gq9h.rwnv_qbt3</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-11-03T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>30870</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-3jyu-4uf5.gtbc">
+    <socrata:rowID>row-3jyu-4uf5.gtbc</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>9</ds:district>
+    <ds:candidate>Arce, Joshua</ds:candidate>
+    <ds:date_of_submission>2016-11-02T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-07T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>10813</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-bd4i.iy7y~vd4i">
+    <socrata:rowID>row-bd4i.iy7y~vd4i</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>7</ds:district>
+    <ds:candidate>Engardio, Joel</ds:candidate>
+    <ds:date_of_submission>2016-11-07T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>4470</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-gsn5_8bw5.qqcc">
+    <socrata:rowID>row-gsn5_8bw5.qqcc</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lyens, Jonathan</ds:candidate>
+    <ds:date_of_submission>2016-11-05T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>1320</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-rn5a.jv66.4r6f">
+    <socrata:rowID>row-rn5a.jv66.4r6f</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-11-14T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-15T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>4024</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-ag48-ymrj.a5dx">
+    <socrata:rowID>row-ag48-ymrj.a5dx</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-11-22T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-23T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>6295</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-khet.m8zs~jjwq">
+    <socrata:rowID>row-khet.m8zs~jjwq</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Safai, Ahsha</ds:candidate>
+    <ds:date_of_submission>2016-11-28T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-30T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>7100</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-dsti_mwg8.wdnf">
+    <socrata:rowID>row-dsti_mwg8.wdnf</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Philhour, Marjan</ds:candidate>
+    <ds:date_of_submission>2016-11-29T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-01T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>1750</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-d9ge-u3uv_3ic7">
+    <socrata:rowID>row-d9ge-u3uv_3ic7</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-11-30T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-01T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>13126</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-3v6y_ruvz_v636">
+    <socrata:rowID>row-3v6y_ruvz_v636</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-12-06T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>3214</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-zi3r~ye6c_mzsu">
+    <socrata:rowID>row-zi3r~ye6c_mzsu</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-12-06T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>100</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-pqmi~8qnh~4by7">
+    <socrata:rowID>row-pqmi~8qnh~4by7</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-12-07T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>260</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-2e2j~fdf3-sag7">
+    <socrata:rowID>row-2e2j~fdf3-sag7</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lee, David</ds:candidate>
+    <ds:date_of_submission>2016-12-06T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-08T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>3800</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-qg2s-ieyf.du9v">
+    <socrata:rowID>row-qg2s-ieyf.du9v</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>1</ds:district>
+    <ds:candidate>Lyens, Jonathan</ds:candidate>
+    <ds:date_of_submission>2016-12-08T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-09T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>2000</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-r799~9r67-xedm">
+    <socrata:rowID>row-r799~9r67-xedm</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>5</ds:district>
+    <ds:candidate>Preston, Dean</ds:candidate>
+    <ds:date_of_submission>2016-12-08T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-12-12T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>400</ds:funds_disbursed></dsbase:nmzh-y378>
+<dsbase:nmzh-y378 rdf:about="https://data.sfgov.org/resource/nmzh-y378/row-wdbj~vacg_56by">
+    <socrata:rowID>row-wdbj~vacg_56by</socrata:rowID>
+    <rdfs:member rdf:resource="https://data.sfgov.org/resource/nmzh-y378"/>
+    <ds:district>11</ds:district>
+    <ds:candidate>Alvarenga, Kimberly</ds:candidate>
+    <ds:date_of_submission>2016-11-28T00:00:00</ds:date_of_submission>
+    <ds:date_certified_approved>2016-11-28T00:00:00</ds:date_certified_approved>
+    <ds:pending_completed>Completed</ds:pending_completed>
+    <ds:funds_disbursed>375</ds:funds_disbursed></dsbase:nmzh-y378></rdf:RDF>

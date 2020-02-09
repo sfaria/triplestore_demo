@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <organization>
+		<name>Genedata AG</name>
+		<url>http://www.genedata.com</url>
+	</organization>
+
+    <groupId>genedata.gdev</groupId>
+    <artifactId>triple_store_demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Triplestore Demo</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<version>3.8.1</version>
+				<artifactId>maven-compiler-plugin</artifactId>
+
+				<configuration>
+					<source>13</source>
+					<target>13</target>
+					<encoding>utf8</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+
+		<sourceDirectory>src</sourceDirectory>
+
+		<resources>
+			<resource>
+				<directory>src/</directory>
+
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+
+			<resource>
+				<directory>doc/focus/</directory>
+
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+
+			<resource>
+				<directory>focus/</directory>
+
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+
+		<testSourceDirectory>srcTest</testSourceDirectory>
+
+		<testResources>
+			<testResource>
+				<directory>srcTest/</directory>
+
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</testResource>
+		</testResources>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>apache-jena-libs</artifactId>
+			<type>pom</type>
+			<version>3.14.0</version>
+		</dependency>
+	</dependencies>
+</project>

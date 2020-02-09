@@ -1,0 +1,13 @@
+# IntelliJ
+*.iml
+.idea/compiler.xml
+.idea/dataSources.*
+.idea/dataSources/**
+.idea/encodings.xml
+.idea/hydra.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/shelf
+.idea/workspace.xml
