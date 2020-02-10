@@ -27,19 +27,41 @@ import java.io.InputStream;
 /**
  * @author Scott Faria
  */
-public class Jena {
+public final class Jena {
 
 	// -------------------- Private Methods --------------------
 
 	//language=SPARQL
-	public static final String ALL_CANDIDATES_WITH_FUNDING = "" +
+	private static final String ALL_CANDIDATES_WITH_FUNDING = "" +
 			"prefix ds: <https://data.sfgov.org/resource/nmzh-y378/>\n" +
 			"select distinct ?candidate ?amount\n" +
 			"where {  \n" +
-			"\t?id ds:pending_completed \"Completed\" .\n" +
-			"\t?id ds:candidate ?candidate .\n" +
-			"\t?id ds:funds_disbursed ?amount\n" +
-			"} ";
+			"\t?id ds:pending_completed \"Completed\" ;\n" +
+			"\tds:candidate ?candidate ;\n" +
+			"\tds:funds_disbursed ?amount\n" +
+			"} \n" +
+			"order by ?candidate";
+
+	//language=SPARQL
+	private static final String ALL_CANDIDATES_WITH_FUNDING_IMPROVED = "" +
+			"prefix ds: <https://data.sfgov.org/resource/nmzh-y378/>\n" +
+			"prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+			"select ?candidate (sum(xsd:decimal(?amount)) as ?total_funding)\n" +
+			"where {  \n" +
+			"\t?id ds:pending_completed \"Completed\" ;\n" +
+			"\tds:candidate ?candidate ;\n" +
+			"\tds:funds_disbursed ?amount\n" +
+			"} \n" +
+			"group by ?candidate\n" +
+			"order by ?candidate";
+
+
+	//language=SPARQL
+	private static final String ASK_IF_CANDIDATE_EXISTS = "" +
+			"prefix ds: <https://data.sfgov.org/resource/nmzh-y378/>\n" +
+			"ask { \n" +
+			"   ?x ds:candidate \"Fewer, Sandra\"\n" +
+			"}";
 
 	// -------------------- Private Methods --------------------
 
@@ -51,14 +73,25 @@ public class Jena {
 		return model;
 	}
 
-	private static void executeSPARQLQuery(String queryString, Model model) {
+	private static void executeSPARQLQuery(String queryString, QueryType type, Model model) {
 		Query query = QueryFactory.create(queryString);
 		try (QueryExecution queryExecution = QueryExecutionFactory.create(query, model)) {
-			ResultSet resultSet = queryExecution.execSelect();
-			while (resultSet.hasNext()) {
-				QuerySolution solution = resultSet.next();
-				System.err.println(solution.toString());
+			System.out.println();
+			System.out.println("------------------------------------------------------");
+			switch (type) {
+				case SELECT:
+					ResultSet resultSet = queryExecution.execSelect();
+					while (resultSet.hasNext()) {
+						QuerySolution solution = resultSet.next();
+						System.out.println(solution.toString());
+					}
+					break;
+				case ASK:
+					System.out.println("Result: " + queryExecution.execAsk());
+					break;
 			}
+			System.out.println("------------------------------------------------------");
+			System.out.println();
 		}
 	}
 
@@ -66,6 +99,8 @@ public class Jena {
 
 	public static void main(String[] args) throws IOException {
 		Model model = createModel();
-		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING, model);
+		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING, QueryType.SELECT, model);
+		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING_IMPROVED, QueryType.SELECT, model);
+		executeSPARQLQuery(ASK_IF_CANDIDATE_EXISTS, QueryType.ASK, model);
 	}
 }

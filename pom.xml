@@ -75,7 +75,7 @@
 			<groupId>org.apache.jena</groupId>
 			<artifactId>apache-jena-libs</artifactId>
 			<type>pom</type>
-			<version>3.14.0</version>
+			<version>LATEST</version>
 		</dependency>
 	</dependencies>
 </project>
