@@ -24,6 +24,8 @@ import org.apache.jena.util.FileManager;
 import java.io.IOException;
 import java.io.InputStream;
 
+import static demo.QueryType.*;
+
 /**
  * @author Scott Faria
  */
@@ -63,6 +65,32 @@ public final class Jena {
 			"   ?x ds:candidate \"Fewer, Sandra\"\n" +
 			"}";
 
+	//language=SPARQL
+	private static final String CANDIDATES_BY_DISTRICT = "" +
+			"prefix ds: <https://data.sfgov.org/resource/nmzh-y378/>\n" +
+			"select ?district \n" +
+			"(count(distinct ?candidate) as ?num_candidates) \n" +
+			"(group_concat(distinct concat(\"'\", ?candidate, \"'\"); separator=\", \") as ?candidates)\n" +
+			"where {\n" +
+			"    ?id ds:district ?district ;\n" +
+			"    ds:candidate ?candidate\n" +
+			"}\n" +
+			"group by ?district\n" +
+			"order by ?district ?candidate";
+
+	//language=SPARQL
+	private static final String CANDIDATES_TOOK_OVER_AMOUNT = "" +
+			"prefix ds: <https://data.sfgov.org/resource/nmzh-y378/>\n" +
+			"prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+			"select ?candidate (max(xsd:decimal(?amount)) as ?highest_donation)\n" +
+			"where {\n" +
+			"    ?id ds:candidate ?candidate ;\n" +
+			"    ds:funds_disbursed ?amount\n" +
+			"    filter (xsd:decimal(?amount) > 10000.0)\n" +
+			"}\n" +
+			"group by ?candidate\n" +
+			"order by ?candidate";
+
 	// -------------------- Private Methods --------------------
 
 	private static Model createModel() throws IOException {
@@ -99,8 +127,10 @@ public final class Jena {
 
 	public static void main(String[] args) throws IOException {
 		Model model = createModel();
-		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING, QueryType.SELECT, model);
-		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING_IMPROVED, QueryType.SELECT, model);
-		executeSPARQLQuery(ASK_IF_CANDIDATE_EXISTS, QueryType.ASK, model);
+		executeSPARQLQuery(ASK_IF_CANDIDATE_EXISTS, ASK, model);
+		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING, SELECT, model);
+		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING_IMPROVED, SELECT, model);
+		executeSPARQLQuery(CANDIDATES_BY_DISTRICT, SELECT, model);
+		executeSPARQLQuery(CANDIDATES_TOOK_OVER_AMOUNT, SELECT, model);
 	}
 }
