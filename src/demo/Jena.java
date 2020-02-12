@@ -1,28 +1,23 @@
 package demo;
 
+import org.apache.jena.datatypes.RDFDatatype;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.NodeIterator;
-import org.apache.jena.rdf.model.NsIterator;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.ResIterator;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.SimpleSelector;
-import org.apache.jena.rdf.model.Statement;
-import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.rdf.model.*;
 import org.apache.jena.rdf.model.impl.PropertyImpl;
 import org.apache.jena.rdf.model.impl.ResourceImpl;
 import org.apache.jena.util.FileManager;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Iterator;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 import static demo.QueryType.*;
 
@@ -109,10 +104,27 @@ public final class Jena {
 			switch (type) {
 				case SELECT:
 					ResultSet resultSet = queryExecution.execSelect();
-					while (resultSet.hasNext()) {
-						QuerySolution solution = resultSet.next();
-						System.out.println(solution.toString());
-					}
+					resultSet.forEachRemaining(solution -> {
+						Iterable<String> it = solution::varNames;
+						Stream<String> stream = StreamSupport.stream(it.spliterator(), false);
+						String line = stream.map(colName -> {
+							RDFNode node = solution.get(colName);
+							String value;
+							if (node.isLiteral()) {
+								Literal literal = node.asLiteral();
+								Class<?> typeClass = literal.getDatatype().getJavaClass();
+								if (typeClass.equals(Number.class)) {
+									value = Float.toString(literal.getFloat());
+								} else {
+									value = literal.toString();
+								}
+							} else {
+								value = node.toString();
+							}
+							return colName + ": " + value;
+						}).collect(Collectors.joining(", "));
+						System.out.println(line);
+					});
 					break;
 				case ASK:
 					System.out.println("Result: " + queryExecution.execAsk());
