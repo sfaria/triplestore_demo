@@ -139,10 +139,10 @@ public final class Jena {
 
 	public static void main(String[] args) throws IOException {
 		Model model = createModel();
-		executeSPARQLQuery(ASK_IF_CANDIDATE_EXISTS, ASK, model);
-		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING, SELECT, model);
+//		executeSPARQLQuery(ASK_IF_CANDIDATE_EXISTS, ASK, model);
+//		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING, SELECT, model);
 		executeSPARQLQuery(ALL_CANDIDATES_WITH_FUNDING_IMPROVED, SELECT, model);
-		executeSPARQLQuery(CANDIDATES_BY_DISTRICT, SELECT, model);
-		executeSPARQLQuery(CANDIDATES_TOOK_OVER_AMOUNT, SELECT, model);
+//		executeSPARQLQuery(CANDIDATES_BY_DISTRICT, SELECT, model);
+//		executeSPARQLQuery(CANDIDATES_TOOK_OVER_AMOUNT, SELECT, model);
 	}
 }
